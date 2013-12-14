@@ -1,0 +1,82 @@
+/*Got from here to solve browser rendering issues 
+http://nettuts.com/html-css-techniques/weekend-quick-tip-create-your-own-resetcss-file/
+This also needs to be in the same CSS file so it can be overidden later*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, dl, dt, dd, a
+{
+margin: 0; padding: 0; border: 0; outline: none;
+line-height:150%;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+font-size: 100%;
+padding: .6em 0;
+margin: 0 15px;
+}
+
+a
+{
+text-decoration: none;
+color:Blue;
+}
+
+a:hover
+{
+text-decoration: underline;
+color:Blue;
+}
+
+.floatLeft
+{
+float: left;
+padding: .5em .5em .5em 0;
+}
+
+.floatRight
+{
+float: right;
+padding: .5em 0 .5em .5em;
+}
+
+
+/*End of reset code*/
+
+h1{font-size:22pt;}
+h3{font-size:14pt;}	
+	
+
+body{
+	background: #f0eee4 url(../CSS_Images/background.jpg) repeat-x; 
+	font-family:georgia,serif,arial;
+	font-size:10pt;
+}
+
+
+ul{
+	list-style:none;
+	text-indent:40px;
+}
+
+form p{
+	margin: 10px;
+	margin-left: 120px;
+}
+
+table{
+	margin-top:20px;
+	margin-bottom:20px;
+ 	margin-left:auto;
+ 	margin-right:auto;	
+}
+
+td{	
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+p{
+ margin-left:50px;
+}

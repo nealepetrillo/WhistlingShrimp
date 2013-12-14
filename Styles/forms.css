@@ -1,0 +1,31 @@
+#uBar{
+	width:100%;
+	height:320px;
+}
+
+}
+
+ul{
+	list-style:none;
+	text-indent:40px;
+}
+
+form p{
+	margin: 10px;
+}
+
+
+
+table{
+	margin-top:20px;
+	margin-bottom:20px;
+ 	margin-left:auto;
+ 	margin-right:auto;	
+}
+
+td{	
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}

@@ -1,0 +1,161 @@
+/*Got from here to solve browser rendering issues 
+http://nettuts.com/html-css-techniques/weekend-quick-tip-create-your-own-resetcss-file/
+This also needs to be in the same CSS file so it can be overidden later*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, dl, dt, dd, a
+{
+margin: 0; padding: 0; border: 0; outline: none;
+line-height:150%;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+font-size: 100%;
+padding: .6em 0;
+margin: 0 15px;
+}
+
+a
+{
+text-decoration: none;
+color:Blue;
+}
+
+a:hover
+{
+text-decoration: underline;
+color:Blue;
+}
+
+.floatLeft
+{
+float: left;
+padding: .5em .5em .5em 0;
+}
+
+.floatRight
+{
+float: right;
+padding: .5em 0 .5em .5em;
+}
+
+
+/*End of reset code*/
+
+h1{font-size:22pt;}
+h3{font-size:14pt;}	
+	
+
+body{
+	background: #f0eee4 url(../CSS_Images/background.jpg) repeat-x; 
+	font-family:georgia,serif,arial;
+	font-size:10pt;
+}
+	
+
+#title{
+   display:block;
+   margin-left:auto;	
+   margin-right:auto;
+   margin-top:0px;	
+   margin-bottom:0px;	
+   position:relative;
+   right:12px;
+}
+
+
+
+#main{
+	background:White url(../CSS_Images/blr.jpg) repeat-y;
+	width : 750px;
+	min-height:600px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top:15px;
+	padding-bottom:30px;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	top:5px;
+}
+
+
+#login{
+text-align: center;
+margin-top:5px;
+color:white;
+	
+}
+
+
+
+
+#menuBar{
+	background-color:White;
+	margin-top:20px;
+	margin-bottom:20px;
+	display:block;
+	
+
+}
+
+#menuBar a{
+	padding: 10px 5px 10px 5px;
+	width:108px;
+	float:left;
+	text-align:center;
+	margin: 1px;
+	
+}
+
+
+
+
+.Nactive{
+	
+	color:#CCCCCC;
+	text-decoration: none;
+	border:1px solid #AAAAAA;
+
+}
+.Nactive:hover{
+	text-decoration: underline;
+	color:Black;
+	border:1px solid Black;
+}
+
+#activeL{
+	border:1px solid #AAAAAA;
+	background: #821B1B;
+	color:White;
+}
+
+#footer{
+	border-top:1px solid #cccccc;
+	text-align:center;
+	width : 865px;
+	height : 30px;
+  	margin-left: auto;
+	margin-right: auto;
+	margin-top:5px;
+	margin-bottom:20px;
+	padding-top: 10px;
+}
+
+
+#footer img{
+	float: left;
+	padding: 5px;
+}
+
+#login a{
+	Color:white;
+	font-weight: Bold;
+}
+
+#login a:hover{
+	text-decoration: underline;
+}
+
